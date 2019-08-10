@@ -22,7 +22,7 @@ class App extends React.Component {
     })
     if (isNaN(event.target.value)) {
         this.setState({
-          btc: "Please enter a number."
+          btc: "Not a number."
         })
     }
     if (event.target.value === ".") {
