@@ -40,6 +40,13 @@ h3 {
 
 @media screen and (max-width: 1200px) {
     input{
-        width: 30%;
+        width: 35%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    form{
+        padding-top: 30%;
+    }
+}
+
