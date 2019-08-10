@@ -40,7 +40,7 @@ class App extends React.Component {
     })
     if (isNaN(event.target.value)) {
       this.setState({
-        dollars: "Please enter a number."
+        dollars: "Not a number."
       })
   }
     if (event.target.value === ".") {
