@@ -22,7 +22,7 @@ class App extends React.Component {
     })
     if (isNaN(event.target.value)) {
         this.setState({
-          btc: "Not a number."
+          btc: "Invalid..."
         })
     }
     if (event.target.value === ".") {
@@ -40,7 +40,7 @@ class App extends React.Component {
     })
     if (isNaN(event.target.value)) {
       this.setState({
-        dollars: "Not a number."
+        dollars: "Invalid..."
       })
   }
     if (event.target.value === ".") {
