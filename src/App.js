@@ -18,9 +18,9 @@ class App extends React.Component {
     const {name, value} = event.target
     this.setState({
       [name]: value,
-      btc: ((event.target.value / this.state.price).toFixed(8))
+      btc: ((event.target.value.replace(/,/g, '') / this.state.price).toFixed(8))
     })
-    if (isNaN(event.target.value)) {
+    if (isNaN(event.target.value.replace(/,/g, ''))) {
         this.setState({
           btc: "Invalid..."
         })
@@ -36,9 +36,9 @@ class App extends React.Component {
     const {name, value} = event.target
     this.setState({
       [name]: value, 
-      dollars: ((event.target.value * this.state.price).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+      dollars: ((event.target.value.replace(/,/g, '') * this.state.price).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ","))
     })
-    if (isNaN(event.target.value)) {
+      if (isNaN(event.target.value.replace(/,/g, ''))) {
       this.setState({
         dollars: "Invalid..."
       })
