@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bitcoin_price_converter/static/css/main.fbfe6871.chunk.css",
+    "main.css": "/bitcoin_price_converter/static/css/main.1a128331.chunk.css",
     "main.js": "/bitcoin_price_converter/static/js/main.75cfc4d1.chunk.js",
     "main.js.map": "/bitcoin_price_converter/static/js/main.75cfc4d1.chunk.js.map",
     "runtime~main.js": "/bitcoin_price_converter/static/js/runtime~main.a6ee1fcb.js",
@@ -8,9 +8,9 @@
     "static/js/2.adfc45b8.chunk.js": "/bitcoin_price_converter/static/js/2.adfc45b8.chunk.js",
     "static/js/2.adfc45b8.chunk.js.map": "/bitcoin_price_converter/static/js/2.adfc45b8.chunk.js.map",
     "index.html": "/bitcoin_price_converter/index.html",
-    "precache-manifest.ebc13aca68253d2eb5114e589133f09e.js": "/bitcoin_price_converter/precache-manifest.ebc13aca68253d2eb5114e589133f09e.js",
+    "precache-manifest.094395b7dd929458ca50f27a585ea8d3.js": "/bitcoin_price_converter/precache-manifest.094395b7dd929458ca50f27a585ea8d3.js",
     "service-worker.js": "/bitcoin_price_converter/service-worker.js",
-    "static/css/main.fbfe6871.chunk.css.map": "/bitcoin_price_converter/static/css/main.fbfe6871.chunk.css.map",
+    "static/css/main.1a128331.chunk.css.map": "/bitcoin_price_converter/static/css/main.1a128331.chunk.css.map",
     "static/media/App.css": "/bitcoin_price_converter/static/media/btcbackground.ef236086.jpg"
   }
 }
